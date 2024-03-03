@@ -16,36 +16,7 @@ function loaded() {
 
 var x = 0;
 
-var titleText = ["|",
-		 "★…",
-		 "★… ",
-		 "★… 1",
-		 "★… 1B",
-		 "★… 1B ",
-		 "★… 1B S",
-		 "★… 1B Se",
-		 "★… 1B Ser",
-		 "★… 1B Serv",
-		 "★… 1B Servi",
-		 "★… 1B Servic",
-		 "★… 1B Service",
-		 "★… 1B Services",
-		 "★… 1B Services ★",
-		 "★… 1B Services ★…",
-		 "★… 1B Services ★",
-		 "★… 1B Services",
-		 "★… 1B Service",
-		 "★… 1B Servic",
-		 "★… 1B Serv",
-		 "★… 1B Ser",
-		 "★… 1B Se",
-		 "★… 1B S",
-		 "★… 1B ",
-		 "★… 1B",
-		 "★… 1",
-		 "★… ",
-		 "★…",
-		 "|",
+var titleText = [""]
 
 
 function loop() {
