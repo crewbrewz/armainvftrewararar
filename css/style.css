@@ -413,3 +413,112 @@ span {
     background: #FF6464;
     margin-bottom: 40px;
 }
+
+/*==============
+    6. BUY
+================*/
+
+
+#buy {
+    z-index: 1030;
+}
+
+.bg-buy {
+    position: relative;
+    background-image: url(../img/bg-advantages.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.bg-buy::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(255, 70, 70, 0.8), rgba(255, 70, 70, 0.5));
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.buy-content {
+    padding-top: 150px;
+}
+
+.buy-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.buy-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.buy-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32%;
+    min-height: 400px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+    border: 1px solid #FF0000;
+    background-image: linear-gradient(to top, rgba(255, 70, 70, .6), rgba(255, 70, 70, .3));
+    margin-right: 10px;
+}
+
+.buy-item:last-child {
+    margin-right: 0;
+}
+
+.buy-item h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.buy-item .list-func p {
+    margin-bottom: 10px;
+}
+
+.list-func svg {
+    margin-right: 5px;
+}
+
+.buy-item .list-func p:last-child,
+.buy-item .list-func span:last-child {
+    margin-bottom: 0;
+}
+
+.buy-item h3 {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buy-item .btn--buy {
+    text-align: center;
+}
+
+.buy-item .btn--buy a {
+    background-color: #FF0000;
+    padding: 10px 25px;
+    display: block;
+    color: #fff;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: 0 0 70px 0px rgba(255, 70, 70, .5);
+}
